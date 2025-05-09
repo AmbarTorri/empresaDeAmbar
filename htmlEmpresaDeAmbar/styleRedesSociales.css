@@ -1,7 +1,11 @@
 
+body {
+  background-color: rgb(199, 206, 253);
+}
 h1{
     font-size: 28px;
-    text-decoration: underline;
+    text-decoration:overline;
+    text-align: center;
 }
   
   .redes-sociales{
@@ -13,6 +17,10 @@ h1{
 
   }
   .botonImagen{
+    border: #000000 solid 2px;
+    border-radius: 60px;
+    padding: 13px;
+    margin: 20%;
     width: 100px;
     height: 100px;
     transition: transform 0.3s ease;
@@ -22,3 +30,21 @@ h1{
     transform: scale(1.1);
     cursor: pointer;
   }
+
+  .botones {
+    color: #3470a7;
+    font-size: 18px;
+    padding: 15px;
+    text-align: center;
+    display: block;
+    font-weight: 600;
+}
+.botones :hover{
+    cursor: pointer;
+    color: #fcfcfc;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
