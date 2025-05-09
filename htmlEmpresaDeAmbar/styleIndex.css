@@ -38,7 +38,7 @@ body::before {
 
 
 .botones {
-    color: #d66b36;
+    color: #f7cfbb;
     font-size: 18px;
     padding: 15px;
     text-align: center;
@@ -47,7 +47,7 @@ body::before {
 }
 .botones :hover{
     cursor: pointer;
-    color: #ffe5d8;
+    color: #9e5a38;
 }
 
 .boton-img-ubi{   
